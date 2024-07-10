@@ -1,6 +1,10 @@
 ﻿@page "/weather"
 @inject HttpClient Http
 
+
+@inject IStringLocalizer<Resource> localizer
+<h1>@localizer["helloworld"]</h1>
+
 <PageTitle>Weather</PageTitle>
 
 <h1>Weather</h1>
